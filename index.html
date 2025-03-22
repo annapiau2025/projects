@@ -1,104 +1,127 @@
-
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon Bien-être : Redécouvrir l’équilibre dans tous les aspects de la vie</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            line-height: 1.6; 
-            margin: 0; 
-            padding: 0; 
-            background-color: #1A2B39; /* Blue-grey background */
-            color: #EAEAEA; 
-        }
-        header { 
-            background-color: #001102; /* Very dark green-blue */
-            color: #84CDB5; 
-            padding: 1rem; 
-            text-align: center; 
-        }
-        main { padding: 20px; }
-        section { 
-            background-color: #1B2B3A; /* Dark marine blue */
-            margin: 20px auto; 
-            padding: 20px; 
-            border-radius: 12px; 
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
-            max-width: 800px; 
-        }
-        h1 { text-align: center; color: #84CDB5; }
-        h2 { margin-top: 0; color: #84CDB5; }
-        ul { list-style-type: none; padding: 0; }
-        li { 
-            margin-bottom: 15px; 
-            padding: 10px; 
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
-        }
-        li:last-child { border-bottom: none; }
-        strong { color: #84CDB5; }
-        footer { 
-            text-align: center; 
-            padding: 10px 0; 
-            background-color: #001102; 
-            color: #EAEAEA; 
-        }
-        a { color: #84CDB5; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Horizon Bien-être 2025</title>
+<style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      background-color: #1B2B3A;
+      color: white;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .top-content {
+      text-align: center;
+      padding: 10px 20px 5px;
+      flex-shrink: 0;
+    }
+    .top-content h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+    }
+    .top-content p {
+      font-size: 1.1rem;
+      margin: 0 auto 16px;
+      max-width: 700px;
+    }
+    .cta-buttons {
+      margin-bottom: 10px;
+    }
+    .cta-buttons a {
+      text-decoration: none;
+      color: white;
+      background-color: #84CDB5;
+      padding: 9px 16px;
+      margin: 4px;
+      border-radius: 25px;
+      font-size: 1rem;
+      display: inline-block;
+    }
+    .cta-buttons a:hover {
+      background-color: #6FB8A5;
+    }
+    .hero-image {
+      max-height: 60vh;
+      max-width: 92vw;
+      width: auto;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      margin: 3px 0;
+      flex-shrink: 1;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #ccc;
+      padding: 6px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 600px) {
+      .top-content h1 {
+        font-size: 1.5rem;
+      }
+      .top-content p {
+        font-size: 1rem;
+      }
+      .cta-buttons a {
+        font-size: 0.95rem;
+        padding: 7px 14px;
+      }
+      .hero-image {
+        max-height: 45vh;
+      }
+    }
+  </style>
 </head>
 <body>
-<header>
-    <h1>Horizon Bien-être : Redécouvrir l’équilibre dans tous les aspects de la vie</h1>
-</header>
-<main>
-    <section>
-        <h2>Jour 1 : Je pense bien – L’art de cultiver l’harmonie intérieure</h2>
-        <ul>
-            <li><strong>Atelier 1 :</strong> “Respirer, s’inspirer : Techniques de gestion du stress et de recentrage”<br>
-                <em>Intervenant :</em> <strong>Guillaume Néry</strong>, apnéiste français de renommée mondiale.<br>
-                <em>Description :</em> Guillaume Néry partagera son expérience en apnée pour enseigner comment la respiration peut devenir une alliée pour naviguer dans les moments de stress et se recentrer.</li>
-            <li><strong>Atelier 2 :</strong> “Émotions en équilibre : Pratiques pour renforcer la résilience mentale”<br>
-                <em>Intervenant :</em> <strong>Loïc Duhaut</strong>, praticien en santé naturelle et coach en entreprise.<br>
-                <em>Description :</em> Loïc Duhaut invitera les participants à explorer une perspective nouvelle sur la respiration consciente, en s’inspirant des mécanismes qui poussent certaines personnes à se tourner vers la cigarette en période de stress.</li>
-            <li><strong>Atelier 3 :</strong> “La pleine conscience au travail : Une clé pour mieux vivre son quotidien professionnel”<br>
-                <em>Intervenants :</em> <strong>Guillaume Néry</strong>, <strong>Loïc Duhaut</strong> et <strong>Leonardo Pelagotti</strong>.<br>
-                <em>Description :</em> Les trois experts uniront leurs compétences pour discuter de l’application de la pleine conscience dans le milieu professionnel, offrant des outils pratiques pour améliorer le bien-être au travail.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Jour 2 : Je mange bien – Alimentation et vitalité</h2>
-        <ul>
-            <li><strong>Atelier 1 :</strong> “Énergie et nutrition : Décoder les besoins de votre corps”<br>
-                <em>Intervenante :</em> <strong>Katia Txi</strong>, naturopathe et coach intuitive.<br>
-                <em>Description :</em> Katia Txi partagera son expertise en biomédecine, thérapies nutritionnelles et herboristerie pour aider les participants à comprendre les besoins énergétiques du corps et comment y répondre par une alimentation adaptée.</li>
-            <li><strong>Atelier 2 :</strong> “Nourrir son cerveau : Les aliments au service de la concentration et de la créativité”<br>
-                <em>Intervenante :</em> <strong>Anna Anatura</strong>, experte en nutrition et santé.<br>
-                <em>Description :</em> Anna Anatura présentera une approche où l’équilibre du poids par l’alimentation commence par le travail sur les pensées, en introduisant les fleurs de Bach comme outil complémentaire.</li>
-            <li><strong>Table ronde :</strong> “Révolution alimentaire : L’impact d’une nutrition consciente sur la productivité”<br>
-                <em>Participants :</em> <strong>Katia Txi</strong>, <strong>Anna Anatura</strong> et <strong>Hervé Palmieri</strong> (Hervé Cuisine).<br>
-                <em>Description :</em> Cette discussion explorera comment une alimentation consciente peut transformer la productivité personnelle et professionnelle, en offrant des perspectives variées et des conseils pratiques.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Jour 3 : Je bouge bien – Dynamique et bien-être corporel</h2>
-        <ul>
-            <li><strong>Atelier 1 :</strong> “Reconnecter avec son corps : Mouvement et posture au quotidien”<br>
-                <em>Intervenante :</em> <strong>Carine Badet</strong>, spécialiste en Pilates et Yoga.<br>
-                <em>Description :</em> Carine Badet partagera son expertise pour aider les participants à améliorer leur posture et à intégrer des mouvements bénéfiques dans leur routine quotidienne.</li>
-            <li><strong>Conférence :</strong> “Sortir de sa zone de confort : Leçons d’un explorateur, Développer la résilience face à l’adversité”<br>
-                <em>Intervenant :</em> <strong>Mike Horn</strong>, explorateur de renommée mondiale.<br>
-                <em>Description :</em> Mike Horn partagera ses expériences d’expéditions extrêmes et expliquera comment sortir de sa zone de confort peut mener à une croissance personnelle et professionnelle significative.</li>
-            <li><strong>Clôture de la conférence :</strong> “Horizon 360° : Une vie équilibrée pour un impact durable”<br>
-                <em>Intervenant :</em> <strong>Christophe Haag</strong>, professeur et chercheur en psychologie sociale.<br>
-                <em>Description :</em> Christophe Haag partagera ses recherches sur l’intelligence émotionnelle et la contagion émotionnelle, offrant des perspectives sur la manière dont une vie équilibrée peut conduire à un impact durable tant sur le plan personnel que professionnel.</li>
-        </ul>
-    </section>
-</main>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="programme.html">Programme</a>
+<a href="biographie.html">Intervenants</a>
+<a href="invitation.html">Invitation</a>
+<a href="inscription.html">Inscription</a>
+</nav>
+<style>
+  nav {
+    background-color: #202840;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #84CDB5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  nav a:hover {
+    color: #6FB8A5;
+  }
+</style>
+
+<div class="top-content">
+<h1>Horizon Bien-être 2025</h1>
+<p>3 jours d’inspiration pour redécouvrir l’équilibre dans tous les aspects de la vie.</p>
+<div class="cta-buttons">
+<a href="programme.html">Voir le programme</a>
+<a href="biographie.html">Nos intervenants</a>
+<a href="inscription.html">Inscription</a>
+</div>
+</div>
+<img alt="Horizon Bien-être" class="hero-image" src="c3c229890942e8a9c28fe444f0652342f5dd17b2e3f0902a7b543018392428c8.png"/>
 <footer>
-    <p>&copy; 2025 Horizon Bien-être. Tous droits réservés.</p>
-</footer>
+    © 2025 Horizon Bien-être. Tous droits réservés.
+  </footer>
 </body>
 </html>

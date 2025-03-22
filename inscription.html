@@ -1,98 +1,132 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation - Horizon Bien-être</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(90deg, #84CDB5, #23324C);
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        header h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        header h2 {
-            font-size: 1.8rem;
-            margin-top: 10px;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-            max-width: 900px;
-            text-align: center;
-        }
-        .highlight {
-            font-size: 1.4rem;
-            font-weight: bold;
-            color: #23324C;
-        }
-        .cta-button {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #84CDB5;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 25px;
-            font-size: 1.2rem;
-        }
-        .cta-button:hover {
-            background-color: #6FB8A5;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #23324C;
-            color: white;
-        }
-        .banner {
-            background: url('https://via.placeholder.com/900x300') no-repeat center;
-            background-size: cover;
-            border-radius: 12px;
-            height: 300px;
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Inscription - Horizon Bien-être</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1B2B3A;
+      color: white;
+    }
+    header {
+      background: linear-gradient(90deg, #84CDB5, #23324C);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #202840;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #84CDB5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #6FB8A5;
+    }
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #23324C;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    h2 {
+      text-align: center;
+      color: #84CDB5;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .cta-button {
+      background-color: #84CDB5;
+      color: white;
+      padding: 12px;
+      font-size: 1.1rem;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .cta-button:hover {
+      background-color: #6FB8A5;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #202840;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="programme.html">Programme</a>
+  <a href="biographie.html">Intervenants</a>
+  <a href="invitation.html">Invitation</a>
+  <a href="inscription.html">Inscription</a>
+</nav>
+
 <header>
-    <h1>INVITATION</h1>
-    <h2>Redécouvrez l’équilibre dans tous les aspects de la vie</h2>
+  <h1>Inscription - Horizon Bien-être 2025</h1>
 </header>
+
 <main>
-    <div class="banner"></div>
-    <section>
-        <h2>Rejoignez-nous du 11 au 13 avril 2025</h2>
-        <p class="highlight">Centre de Congrès de Lyon – Cité Internationale</p>
-        <p>Et en ligne : Suivez l'événement en direct où que vous soyez.</p>
-        <p><strong>Découvrez :</strong></p>
-        <ul style="text-align: left; display: inline-block; text-align: left;">
-            <li>🌟 Des conférences inspirantes avec des experts renommés comme Guillaume Néry et Mike Horn.</li>
-            <li>🌿 Des ateliers pratiques pour cultiver votre bien-être physique, mental et émotionnel.</li>
-            <li>🤝 Un cadre unique pour échanger avec des professionnels et passionnés du bien-être.</li>
-        </ul>
-        <a href="#" class="cta-button">Inscrivez-vous maintenant</a>
-    </section>
+  <h2>Formulaire d'inscription</h2>
+  <form action="https://hook.eu2.make.com/o8vylw0u4nwmu8mh5m8yr2ymo2znmg2d" method="POST">
+    <label for="nom">Nom complet</label>
+    <input id="nom" name="Nom" placeholder="Votre nom complet" required type="text"/>
+    
+    <label for="email">Adresse e-mail</label>
+    <input id="email" name="Email" placeholder="votre@email.com" required type="email"/>
+    
+    <label for="telephone">Téléphone</label>
+    <input id="telephone" name="Téléphone" placeholder="+33 6 12 34 56 78" type="tel"/>
+    
+    <label for="jour">Quels jours souhaitez-vous participer ?</label>
+    <select id="jour" name="Jour">
+      <option value="3jours">Tous les jours (11–13 avril)</option>
+      <option value="jour1">Jour 1 – Je pense bien</option>
+      <option value="jour2">Jour 2 – Je mange bien</option>
+      <option value="jour3">Jour 3 – Je bouge bien</option>
+    </select>
+    
+    <label for="message">Message ou besoin particulier</label>
+    <textarea id="message" name="Message" placeholder="Facultatif..." rows="4"></textarea>
+    
+    <button class="cta-button" type="submit">Envoyer mon inscription</button>
+  </form>
 </main>
+
 <footer>
-    <p>&copy; 2025 Horizon Bien-être. Tous droits réservés.</p>
+  © 2025 Horizon Bien-être. Tous droits réservés.
 </footer>
 </body>
 </html>
