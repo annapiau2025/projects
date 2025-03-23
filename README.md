@@ -1,6 +1,7 @@
 # 🌿 Horizon Bien-être 2025
 
 Exercice dans le cadre de ma formation no/low code, ce n'est pas un evenement reel :)
+
 Bienvenue sur le site officiel de la conférence **Horizon Bien-être 2025** – 3 jours d’inspiration pour redécouvrir l’équilibre dans tous les aspects de la vie.
 
 ## 📁 Contenu du site
