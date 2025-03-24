@@ -1,184 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Horizon Bien-être - Invitation
-  </title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon Bien-être - Invitation</title>
   <style>
-   body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1B2B3A; /* Fond bleu marine foncé */
-            color: white; /* Texte en blanc */
-        }
-        header {
-            background: linear-gradient(90deg, #84CDB5, #23324C);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        header h1 {
-            font-size: 2.8rem; /* Augmenté pour plus de visibilité */
-            margin: 0;
-        }
-        header p {
-            margin-top: 5px;
-            font-size: 1.3rem; /* Taille augmentée */
-        }
-        .container {
-            max-width: 1000px;
-            margin: 20px auto;
-            background-color: #23324C; /* Fond légèrement plus clair pour le contenu */
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            display: flex;
-            align-items: flex-start;
-        }
-        .banner {
-            flex: 1;
-            margin-right: 30px;
-            text-align: center;
-        }
-        .banner img {
-            width: 150%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 10px;
-        }
-        .content {
-            flex: 2;
-            text-align: left;
-            margin-left: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .text-wrapper {
-            margin-bottom: 20px;
-            text-align: left;
-        }
-        .text-wrapper h2 {
-            font-size: 2rem; /* Taille augmentée pour le sous-titre */
-        }
-        .text-wrapper p, .text-wrapper ul li {
-            font-size: 1.2rem; /* Taille augmentée pour le contenu */
-        }
-        .cta-button {
-            display: block;
-            width: 250px;
-            margin: 20px auto;
-            padding: 12px;
-            background-color: #84CDB5;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            text-align: center;
-        }
-        .cta-button:hover {
-            background-color: #6FB8A5;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            padding: 15px;
-            background-color: #23324C;
-            color: white;
-        }
-        .nav-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 15px;
-        }
-        .nav-buttons a {
-            text-decoration: none;
-            color: #84CDB5;
-            font-weight: bold;
-        }
-        .nav-buttons a:hover {
-            color: #6FB8A5;
-        }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1B2B3A;
+      color: white;
+    }
+    header {
+      background: linear-gradient(90deg, #84CDB5, #23324C);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 10px auto;
+      padding: 15px;
+      background-color: #23324C;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .banner img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    .content p, .content ul li {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .cta-button {
+      display: block;
+      text-align: center;
+      background-color: #84CDB5;
+      color: white;
+      padding: 12px;
+      margin: 20px auto;
+      width: 80%;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+    .cta-button:hover {
+      background-color: #6FB8A5;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #23324C;
+      color: white;
+      font-size: 0.9rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #202840;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 8px;
+      color: #84CDB5;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
   </style>
- </head>
- <body>
-  <nav style="text-align: center; background-color: #202840; padding: 10px;">
-   <a href="index.html" style="margin: 0 15px; color:#84CDB5; text-decoration:none; font-weight: bold;">
-    Accueil
-   </a>
-   <a href="programme.html" style="margin: 0 15px; color:#84CDB5; text-decoration:none; font-weight: bold;">
-    Programme
-   </a>
-   <a href="biographie.html" style="margin: 0 15px; color:#84CDB5; text-decoration:none; font-weight: bold;">
-    Intervenants
-   </a>
-   <a href="invitation.html" style="margin: 0 15px; color:#84CDB5; text-decoration:none; font-weight: bold;">
-    Invitation
-   </a>
-   <a href="inscription.html" style="margin: 0 15px; color:#84CDB5; text-decoration:none; font-weight: bold;">
-    Inscription
-   </a>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="programme.html">Programme</a>
+    <a href="biographie.html">Intervenants</a>
+    <a href="invitation.html">Invitation</a>
+    <a href="inscription.html">Inscription</a>
   </nav>
+
   <header>
-   <h1>
-    Horizon Bien-être 2025
-   </h1>
-   <p>
-    Redécouvrez l’équilibre dans tous les aspects de la vie
-   </p>
+    <h1>Horizon Bien-être 2025</h1>
+    <p>Redécouvrez l’équilibre dans tous les aspects de la vie</p>
   </header>
+
   <div class="container">
-   <div class="banner">
-    <img alt="Bien-être Inspirant" src="image_bien_etre.png" style="max-width: 500px; width: 500px; height: 500px; border-radius: 20px; margin-right: 20px;"/>
-   </div>
-   <div class="content">
-    <div class="text-wrapper">
-     <h2>
-      Invitation Officielle
-     </h2>
-     <p>
-      Rejoignez-nous pour trois jours d'inspiration, de découverte et de partage autour du bien-être.
-     </p>
-     <p>
-      <strong>
-       Dates :
-      </strong>
-      Du 11 au 13 avril 2025
-     </p>
-     <p>
-      <strong>
-       Lieu :
-      </strong>
-      Centre de Congrès de Lyon – Cité Internationale
-     </p>
-     <p>
-      <strong>
-       Au programme :
-      </strong>
-     </p>
-     <ul style="list-style: none; padding: 0;">
-      <li>
-       Conférences inspirantes 🌟
-      </li>
-      <li>
-       Ateliers interactifs 🌿
-      </li>
-      <li>
-       Rencontres et networking 🤝
-      </li>
-     </ul>
-     <a class="cta-button" href="inscription.html" style="display: inline-block; margin-top: 20px; margin-left: 0;">
-      Inscrivez-vous maintenant
-     </a>
+    <div class="banner">
+      <img src="image_bien_etre.png" alt="Bien-être Inspirant">
     </div>
-   </div>
+    <div class="content">
+      <h2>Invitation Officielle</h2>
+      <p>Rejoignez-nous pour trois jours d'inspiration, de découverte et de partage autour du bien-être.</p>
+      <p><strong>Dates :</strong> Du 11 au 13 avril 2025</p>
+      <p><strong>Lieu :</strong> Centre de Congrès de Lyon – Cité Internationale</p>
+      <p><strong>Au programme :</strong></p>
+      <ul>
+        <li>Conférences inspirantes 🌟</li>
+        <li>Ateliers interactifs 🌿</li>
+        <li>Rencontres et networking 🤝</li>
+      </ul>
+      <a href="inscription.html" class="cta-button">Inscrivez-vous maintenant</a>
+    </div>
   </div>
+
   <footer>
-   © 2025 Horizon Bien-être. Tous droits réservés.
+    © 2025 Horizon Bien-être. Tous droits réservés.
   </footer>
- </body>
+
+</body>
 </html>
